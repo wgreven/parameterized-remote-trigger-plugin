@@ -81,6 +81,13 @@
       <artifactId>workflow-step-api</artifactId>
       <version>1.12</version>
     </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins.workflow</groupId>
+      <artifactId>workflow-step-api</artifactId>
+      <version>1.12</version>
+      <type>test-jar</type>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
 </project>
